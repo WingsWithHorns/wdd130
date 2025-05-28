@@ -1,6 +1,11 @@
 :root{
     --heading-color: darkblue;
     --border: 1px solid #000;
+    --primary-color: #302F2F;
+    --secondary-color: #83D1EF;
+    --accent-color-1: #C6C5C0;
+    --accent-color-2: #FDFDFD;
+
 }
 nav {
     background-color: var(--heading-color);
@@ -44,4 +49,14 @@ footer{
     margin-top: 15px;
     border-top: var(--border);
     text-align: center;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.barlow-condensed-regular {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
