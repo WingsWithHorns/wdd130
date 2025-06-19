@@ -59,8 +59,10 @@ nav, p, section, article {
     width: 100%;
     height: auto;
 }
-h1 {
+.hero h1{
     position: absolute;
+}
+h1 {
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -262,10 +264,11 @@ footer a{
 .tripslist{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 table {
     font-size: 22px;
-    width: 420px;
+    width: 450px;
     border: solid 2px var(--primary-color);
 }
 th, td{
@@ -273,7 +276,7 @@ th, td{
     padding: 8px;
 }
 .act2 img{
-    width: 300px;
+    width: 280px;
     height: auto;
     margin: 14px 0px 0px 0px;
     transition: transform 0.3s ease-in-out;
