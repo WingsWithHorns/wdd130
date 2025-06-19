@@ -245,9 +245,7 @@ footer a{
     grid-template-rows: 1fr;
     align-items: center;
 }
-.purposesite figure{
-    grid-column: 1fr;
-}
+
 .trips img{
     width: 240px;
     height: auto;
