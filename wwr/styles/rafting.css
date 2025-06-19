@@ -206,3 +206,6 @@ button:hover{
 .contact h3{
     font-size: 18pt;
 }
+footer a{
+    color: var(--secondary-color);
+}
