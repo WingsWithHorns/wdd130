@@ -65,7 +65,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.85;
+    opacity: 0.9;
     background-color: var(--accent-color-1);
     color: var(--secondary-color);
 }
@@ -208,4 +208,79 @@ button:hover{
 }
 footer a{
     color: var(--secondary-color);
+}
+.action{
+    display: flex;
+    justify-content: space-around;
+
+}
+.newsletter form{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 300px;
+    height: 200px;
+}
+.action img{
+    width: 300px;
+    height: auto;
+    margin: 14px 0px 0px 0px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 2em;
+    border: 4px solid var(--primary-color);
+}
+.action img:hover{
+    transform: scale(1.1);
+    border: 4px solid var(--secondary-color);
+}
+.purposesite img{
+    width: 220px;
+    height: auto;
+
+}
+.purposesite{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+.purposesite figure{
+    grid-column: 1fr;
+}
+.trips img{
+    width: 240px;
+    height: auto;
+    border-radius: 2em;
+    padding: 10px;
+    
+}
+.trips div{
+    display: flex;
+    margin: 12px;
+    border: solid 4px var(--secondary-color);
+    border-radius: 2em;
+}
+.tripslist{
+    display: flex;
+    justify-content: space-around;
+}
+table {
+    font-size: 22px;
+    width: 420px;
+    border: solid 2px var(--primary-color);
+}
+th, td{
+    border: solid 2px var(--secondary-color);
+    padding: 8px;
+}
+.act2 img{
+    width: 300px;
+    height: auto;
+    margin: 14px 0px 0px 0px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 2em;
+    border: 4px solid var(--primary-color);
+}
+.act2 img:hover{
+    transform: scale(1.1);
+    border: 4px solid var(--secondary-color);
 }
