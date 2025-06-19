@@ -1,7 +1,7 @@
 :root{
-    --primary-color: #302F2F;
-    --secondary-color: #83D1EF;
-    --accent-color-1: #82817b;
+    --primary-color: #2b2b2b;
+    --secondary-color: #41c7fc;
+    --accent-color-1: #5a5a5a;
     --accent-color-2: #FDFDFD;
     --heading-font: "Bebas Neue", sans-serif;
     --body-font: "Barlow Condensed", sans-serif;
@@ -76,6 +76,7 @@ article{
     padding: 16px;
     text-align: left;
     background-color: var(--secondary-color);
+    color: var(--primary-color);
     align-items: center;
 
 }
@@ -110,4 +111,98 @@ footer{
 }
 h2{
     text-align: center;
+    font-size: 22pt;
+}
+form {
+    width: 750px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 3px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: var(--accent-color-2);
+    
+}
+fieldset {
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/0.3);
+    padding: 1rem;
+}
+legend{
+    padding: 0.5rem;
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+}
+label, input, button, select, textarea {
+    font-family: var(--body-font)
+}
+label{
+    padding-right: 1rem;
+}
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+}
+textarea{
+    width: 300px;
+}
+.outerform {
+    display: flex;
+    justify-content: space-around;
+}
+.radial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+.subbutton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    
+}
+button:hover{
+    background-color: var(--primary-color);
+}
+
+.employee img {
+    width: 180px;
+    height: auto;
+    border-radius: 2em;
+}
+.employee {
+    display: flex;
+    padding: 14px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+    background-color: var(--secondary-color);
+    border-radius: 2em;
+}
+.contact div{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+.contact h3{
+    font-size: 18pt;
 }
